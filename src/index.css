@@ -1,3 +1,159 @@
-* {
-  font-family: "DM Sans", sans-serif;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.hero img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.btn {
+    background: #A31D1D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Books Section */
+.books-section {
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.books-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.books-container {
+    display: flex;
+    gap: 20px;
+}
+
+.book-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.book-img {
+    width: 100%;
+    height: 200px;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+/* Call to Action */
+.cta {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.cta img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.cta-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cta .btn {
+    margin: 5px;
+}
+
+.btn-dark {
+    background: black;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
